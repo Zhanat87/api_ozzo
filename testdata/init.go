@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-ozzo/ozzo-dbx"
 	_ "github.com/lib/pq" // initialize posgresql for test
-	"github.com/qiangxue/golang-restful-starter-kit/app"
+	"github.com/Zhanat87/api_ozzo/app"
 )
 
 var (

@@ -1,7 +1,7 @@
 MAIN_VERSION:=$(shell git describe --abbrev=0 --tags || echo "0.1")
 VERSION:=${MAIN_VERSION}\#$(shell git log -n 1 --pretty=format:"%h")
 PACKAGES:=$(shell go list ./... | sed -n '1!p' | grep -v /vendor/)
-LDFLAGS:=-ldflags "-X github.com/qiangxue/golang-restful-starter-kit/app.Version=${VERSION}"
+LDFLAGS:=-ldflags "-X github.com/Zhanat87/api_ozzo/app.Version=${VERSION}"
 
 default: run
 

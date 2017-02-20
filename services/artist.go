@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/qiangxue/golang-restful-starter-kit/app"
-	"github.com/qiangxue/golang-restful-starter-kit/models"
+	"github.com/Zhanat87/api_ozzo/app"
+	"github.com/Zhanat87/api_ozzo/models"
 )
 
 // artistDAO specifies the interface of the artist DAO needed by ArtistService.

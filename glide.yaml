@@ -1,4 +1,4 @@
-package: github.com/qiangxue/golang-restful-starter-kit
+package: github.com/Zhanat87/api_ozzo
 import:
 - package: github.com/Sirupsen/logrus
   version: ^0.10

@@ -4,8 +4,8 @@ import (
 	"strconv"
 
 	"github.com/go-ozzo/ozzo-routing"
-	"github.com/qiangxue/golang-restful-starter-kit/app"
-	"github.com/qiangxue/golang-restful-starter-kit/models"
+	"github.com/Zhanat87/api_ozzo/app"
+	"github.com/Zhanat87/api_ozzo/models"
 )
 
 type (

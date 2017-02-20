@@ -1,9 +1,9 @@
 # Go RESTful Application Starter Kit
 
-[![GoDoc](https://godoc.org/github.com/qiangxue/golang-restful-starter-kit?status.png)](http://godoc.org/github.com/qiangxue/golang-restful-starter-kit)
+[![GoDoc](https://godoc.org/github.com/Zhanat87/api_ozzo?status.png)](http://godoc.org/github.com/Zhanat87/api_ozzo)
 [![Build Status](https://travis-ci.org/qiangxue/golang-restful-starter-kit.svg?branch=master)](https://travis-ci.org/qiangxue/golang-restful-starter-kit)
 [![Coverage Status](https://coveralls.io/repos/github/qiangxue/golang-restful-starter-kit/badge.svg?branch=master)](https://coveralls.io/github/qiangxue/golang-restful-starter-kit?branch=master)
-[![Go Report](https://goreportcard.com/badge/github.com/qiangxue/golang-restful-starter-kit)](https://goreportcard.com/report/github.com/qiangxue/golang-restful-starter-kit)
+[![Go Report](https://goreportcard.com/badge/github.com/Zhanat87/api_ozzo)](https://goreportcard.com/report/github.com/Zhanat87/api_ozzo)
 
 This starter kit is designed to get you up and running with a project structure optimal for developing
 RESTful services in Go. The kit promotes the best practices that follow the [SOLID principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
@@ -42,7 +42,7 @@ After installing Go, run the following commands to download and install this sta
 
 ```shell
 # install the starter kit
-go get github.com/qiangxue/golang-restful-starter-kit
+go get github.com/Zhanat87/api_ozzo
 
 # install glide (a vendoring and dependency management tool), if you don't have it yet
 go get -u github.com/Masterminds/glide
@@ -118,8 +118,8 @@ the project structure and the recommended practices.
 To use the starter kit as a starting point of a real project whose package name is something like
 `github.com/abc/xyz`, take the following steps:
  
-* move the directory `$GOPATH/github.com/qiangxue/golang-restful-starter-kit` to `$GOPATH/github.com/abc/xyz`
-* do a global replacement of the string `github.com/qiangxue/golang-restful-starter-kit` in all of
+* move the directory `$GOPATH/github.com/Zhanat87/api_ozzo` to `$GOPATH/github.com/abc/xyz`
+* do a global replacement of the string `github.com/Zhanat87/api_ozzo` in all of
   project files with the string `github.com/abc/xyz`
 
 ### Implementing CRUD of Another Table

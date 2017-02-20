@@ -11,11 +11,11 @@ import (
 	"github.com/go-ozzo/ozzo-routing/content"
 	"github.com/go-ozzo/ozzo-routing/cors"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/qiangxue/golang-restful-starter-kit/apis"
-	"github.com/qiangxue/golang-restful-starter-kit/app"
-	"github.com/qiangxue/golang-restful-starter-kit/daos"
-	"github.com/qiangxue/golang-restful-starter-kit/errors"
-	"github.com/qiangxue/golang-restful-starter-kit/services"
+	"github.com/Zhanat87/api_ozzo/apis"
+	"github.com/Zhanat87/api_ozzo/app"
+	"github.com/Zhanat87/api_ozzo/daos"
+	"github.com/Zhanat87/api_ozzo/errors"
+	"github.com/Zhanat87/api_ozzo/services"
 )
 
 func main() {
